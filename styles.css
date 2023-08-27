@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Oswald', sans-serif;
+     font-weight: 400;
+ }
+
+ .box {
+     height: 100vh;
+     width: 100vw;
+
+ }
+
+ .caixa-1 {
+     display: inline-block;
+     width: 60%;
+     padding-left: 130px;
+     margin-top: 27%;
+ }
+
+ .caixa-2 {
+     display: inline-block;
+     background-color: rgba(93, 93, 125, 0.16);
+     height: 150vh;
+     width: 40%;
+     position: absolute;
+ }
+
+ img {
+     display: inline-block;
+     position: relative;
+     top: 145px;
+     right: 180px;
+ }
+
+ h1 {
+     color: #5D5D7D;
+     font-size: 70px;
+     line-height: 80px;
+     width: 368px;
+
+ }
+
+ p {
+     color: #5D5D7D;
+     font-size: 28px;
+     line-height: 48px;
+     opacity: 0.6;
+     margin: 15px 0;
+     width: 540px;
+ }
+
+ .boton-1 {
+
+     font-size: 24px;
+     line-height: 36px;
+     text-align: center;
+     color: #FFFFFF;
+     width: 269px;
+     height: 62px;
+     background-color: #9499EA;
+     border-radius: 50px;
+     border: none;
+     cursor: pointer;
+ }
+
+ .boton-1:hover {
+     opacity: 0.8;
+ }
+
+ .boton-1:active {
+     opacity: 0.5;
+ }
+
+ a {
+     color: #5D5D7D;
+     font-size: 28px;
+     line-height: 41px;
+     margin-right: 41px;
+     cursor: pointer;
+ }
+
+ a:nth-child(2) {
+     opacity: 0.4;
+ }
+
+ a:hover {
+     opacity: 0.4;
+ }
+
+ a:active {
+     opacity: 0.8;
+ }
+
+ header {
+     margin: 24px 0 0 57px;
+ }
+@media screen and ( max-width: 900px){
+    .caixa-1 {     
+        display: block;
+        width: 129%;
+        height: 35%;
+        padding:0 ;
+        margin: 0 ;
+    }
+    .caixa-2 {
+        display: block;
+        height: 100vh;
+        width: 129%;
+        position: static;
+        padding: 30px;
+       
+    }
+    img {
+        display: block;
+        position: static;
+        max-width: 75%;
+        margin: 50px 0px 0px -37px;
+        
+    }
+    a {
+        display:none;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        margin: 70px 50px -15px -70px;
+        width: auto;
+    }
+    p{
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        width: 296px;
+        margin: 50px 0px 0px 60px;
+    }
+    .boton-1 {
+        width: 269px;
+        height: 62px;
+        flex-shrink: 0;
+        margin: 35px 0px 0px 70px;
+        display: block;
+    }
+
+ }
+     
+ @media screen and ( max-width: 350px){
+    .caixa-1 {
+        height: 70%;
+    }
+ }
